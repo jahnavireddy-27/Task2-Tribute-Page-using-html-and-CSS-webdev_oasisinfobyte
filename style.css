@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    
+}
+.header{
+    text-align: center;
+}
+.title{
+    text-shadow: 3px 3px 5px rgb(26, 242, 26);
+    text-align: center;
+    font-size: 3.5em;
+    margin-top:75px;
+    margin-bottom: 10px;
+}
+.subtitle{
+    color:rgb(7, 126, 7);
+    text-shadow: 3px 3px 5px ;
+    margin-bottom: 50px;
+    margin-left:250px;
+    font-size: 2em;
+    font-family:'Kaushan Script';
+}
+.container{
+    display:grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+}
+
+.image img{
+    padding-left:100px;
+}
+.content{
+    color: rgb(15, 113, 15);
+    font-size: 25px;
+    font-family: 'Josefin Slab', sans-serif;
+    line-height:30px ;
+    width: 700px;
+    height:500px;
+    padding-top:100px;
+    padding-left:50px;
+    padding-right:0px;
+}
+
+  
+.timeline {
+    padding-top: 40px;
+    width:200px;
+    margin-left: 75px;
+   
+  }
+
+ 
+.timeline-date {
+    text-shadow: 3px 3px 5px rgb(26, 242, 26);
+    font-size: 25px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top:20px;
+    
+} 
+
+
+
+.timeline-content p{
+    width: 250px;
+    color:rgb(7, 126, 7);
+    font: size 20px; 
+    font-family: 'Peralta';
+    display: inline-block;
+    margin: 0;
+    padding-left:40px;
+    line-height: 1.4;
+    
+} 
+.timeline-content h3 {
+    font-size: 25px;
+    font-family: 'Rowdies', cursive;
+    margin-top: 0px;
+    padding-left:40px;
+    padding-top:10px
+  
+}
+
+.timeline-content p {
+    font-size: 16px;
+    font-family: 'Langar', cursive;
+    line-height: 1.4;
+   
+}
+.contents{
+    display: flex;
+    width:50%;
+}
+
+.contents-content1{
+  width:500px;
+}
+
+.contents-content2 {
+  width:850px;
+  }
+.para{
+    font-size: 25px;
+    font-family: 'Akaya Telivigala', cursive;
+    display: inline-block;
+    width: 850px;
+    margin-left:200px;
+    margin-top:50px;
+    margin-right:0px;
+    line-height: 1.4;
+    color:rgb(7, 126, 7);
+
+}
+
+.para h3{
+    font-family: 'Kaushan Script', cursive;
+    text-shadow: 3px 3px 5px rgb(26, 242, 26);
+    font-size: 25px;
+}
+
+
